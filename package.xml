@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>supereight2</name>
+  <version>0.28.0</version>
+  <description>Supereight2: A high-performance template octree library and dense volumetric SLAM pipeline.</description>
+  <maintainer email="s.boche@tum.de">Simon Boche</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>eigen</depend>
+  <depend>libopencv-dev</depend>
+  <depend>libtbb-dev</depend>
+  <depend>freeglut3-dev</depend>
+  <depend>libopenni2-dev</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
